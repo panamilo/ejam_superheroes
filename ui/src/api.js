@@ -5,3 +5,5 @@ const api = axios.create({
   });
 export const getSuperheroes = () => api.get('/superheroes');
 export const addSuperhero = (superhero) => api.post('/superheroes', superhero);
+
+export default api;
