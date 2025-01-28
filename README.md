@@ -45,6 +45,19 @@ There you should be able to interact with the UI to add new superheroes and view
 
 ==========================================================================================================================================================================
 
+I also used jest to set up some quick unit testing. Also used axios-mock adapter which is a library that mocks axios requests for testing purposes.
+It was also needed to configure babel to transform the ES6 modules for jest.
+Finally 2 unit tests were added for getSuperheroes and addSuperhero in the file api.test.js
+
+In order to run the tests yourselves you would need to:
+
+1) Navigate to /ui folder then do:
+
+   npm test
+
+==========================================================================================================================================================================
+
+
 If i had more time these would be the following things i would consider doing:
 
 1) Make the database to handle the superheroes instead of an array
